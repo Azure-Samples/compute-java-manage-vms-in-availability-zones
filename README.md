@@ -4,9 +4,8 @@ languages:
 - java
 products:
 - azure
-extensions:
-- services: Compute
-- platforms: java
+description: "Azure Compute sample for managing virtual machines. Create a zonal virtual machine with implicitly zoned related resources (PublicIP, Disk)"
+urlFragment: compute-java-manage-vms-in-availability-zones
 ---
 
 # Getting Started with Compute - Manage Zonal Virtual Machine - in Java #
